@@ -1,0 +1,10 @@
+[package]
+name = "ctest"
+version = "0.1.0"
+authors = ["Erich Healy <ErichRHealy@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
